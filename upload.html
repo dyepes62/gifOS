@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Guifo</title>
+    <link id="estilos" rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch:400,700,700i&display=swap" rel="stylesheet">
+</head>
+<body class= "upload">
+    <header>
+        <div>
+        <h1>Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</h1>
+        </div>
+        <div class= "encabezado">
+            <div class= "imgEncabezado">
+            <img class= "arrow" src="assets/arrow.svg" alt="flecha" >
+            <img class= "icono" src="assets/gifOF_logo.png" alt="gifOF_logo">
+        </div>
+        </div>
+    </header>
+
+<div class= "winCrear">
+    <h2 class="barraCrear">Crear Guifos</h2>
+    <section>
+        <img src="/assets/window.png" alt="ventana">
+        <h4 class="h4crear">Aquí podrás crear tus propios guifos</h4>
+    </section>
+            <p class= "crearTexto"> 
+            Crear tu <span class="cursiva">guifo</span>  es muy fácil, graba cualquier imagen con tu cámara y obtén guifos personalizados. Los pasos para crear tu guifo son: <br> <br>
+            <span class="negrita">1)</span> Dar permisos de acceso a la cámara (sólo por el tiempo de uso) <br><br>
+            <span class="negrita">2)</span> Capturar tu momento guifo <br><br>
+            <span class="negrita">3)</span> Revisar el momento <br><br>
+            <span class="negrita">4)</span>Listo para subir y compartir! <br><br>
+            ¿Quieres comenzar a crear tu <span class="cursiva">guifo</span> ahora?
+            </p>
+            <input class="botonCancelar" type="button" value="Cancelar">
+            <input class="botonComenzar" type="button" value="Comenzar">
+</div>
+
+        <section class= "chequeoCaptura">
+            <h2><span id= "tituloCaptura">Un Chequeo Antes de Empezar</span><img src="/assets/button_close.svg" alt="boton cerrar"></h2> 
+            <div class="videoGuifo">
+                <video></video>
+            </div>
+            <div class= "botonesCaptura">
+            <button id="btnRepetir">Repetir Captura</button>
+            <button id="btnSubir">Subir Guifo</button>
+            <button id="btnCancelar">Cancelar</button>
+            <button id="btnLink">Copiar Link del Guifo</button>
+            <button id="btnListo">Listo</button>
+            </div>
+            <button class="botonListo">
+             <img id="imgRecording" src="/assets/recording.svg" alt="lupa_inactive"><span class="spanCaptura">Listo</span></button>
+            <button class="botonCapturar">
+            <img id="imgCamara" src="assets/camera.svg" alt="lupa_inactive"><span class="spanCaptura">Capturar</span></button>
+        </section>  
+        
+        <section class ="misGifs">
+            <h3 id = "h3_tendencia">Mis Guifos</h3>
+            <div id= "imagenesGuifos"></div>
+        </section>
+
+        <section class= "subiendoGuifo">
+            <img id="recuadroGif" src="/assets/globe_img.png" alt="imagen globo">
+            <h4><span id="titulo1">Estamos subiendo tu guifo...</span></h4>
+            <div class="time-bar">
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+            </div>
+            <h5>Tiempo restante: 38 años algunos minutos</h5>
+        </section>
+
+        <section class="popUp">
+            <h4>El enlace del guifo fue copiado con exito!!</h4>
+        </section>
+    
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script src="./upjs.js"></script>
+</body>
+</html>
